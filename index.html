@@ -5,12 +5,14 @@
 <html lang="English">
 <head>
     <title>My Web Design System</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="resources/CSS/style.css">
 </head>
 <body>
 <header>
-    <h1>bonsai</h1>
-    <h5>My Web Design System</h5>
+    <div class="page-title">
+        <h1>bonsai</h1>
+        <h5>My Web Design System</h5>
+    </div>
     <!-- Primary Navigation -->
     <nav>
         <a href="#">Home</a>
@@ -19,22 +21,30 @@
 </header>
 <main>
     <div class='main-block'>
+        <div class="style-blocks">
+            <section class='section'>
+                <h2>Intro</h2>
+                <article>
+                </article>
+            </section>
+            <section class='section'>
+                <h2>Styles</h2>
+            </section>
+        </div>
         <!-- Secondary Navigation -->
         <div class='breadcrumb'>
-          <ul>
+          <ul class="breadcrumb-ul">
             <li>
-              <a href="#">Home</a>
+              <a href="#">Intro</a>
+            </li>
+            <li>
+                <a href="#">Styles</a>
+            </li>
+            <li class="rtt">
+                <a href="#">Return to Top</a>
             </li>
           </ul>
         </div>
-        <section class='section'>
-            <article>
-            </article>
-        </section>
-        <section class='section'>
-        </section>
-        <section class='section'>
-        </section>
     </div>
 </main>
 <footer>

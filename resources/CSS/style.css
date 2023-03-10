@@ -1,0 +1,145 @@
+
+/* Universal */
+
+@font-face {
+    font-family: "Indie FLower";
+    src:  url('../fonts/IndieFlower-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src:  url('../fonts/Ubuntu-Regular.ttf') format('truetype');
+}
+
+@font-face {
+    font-family: "Quicksand";
+    src:  url('../fonts/Quicksand-VariableFont_wght.ttf') format('truetype');
+}
+
+html {
+    background-color: hsla(210, 14%, 83%, 1);
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Header & Navigation */
+
+a {
+    margin-right: 5%;
+}
+
+
+header {
+    margin: 1%;
+    background-color: hsla(210, 11%, 15%, 1);
+    border-radius: 8px;
+    padding: 0 5% 0 0;
+}
+
+h1 {
+    font-size: 60px;
+    /*padding: 30px 10% 0 0;
+    float: right;
+    position: relative;*/
+}
+
+h2 {
+    margin: 5px;
+}
+
+p {
+    padding: 0 0 30px 15px;
+    letter-spacing: 2px;
+}
+
+h5 {
+    letter-spacing: 2px;
+}
+
+.page-title {
+    padding-top: 30px;
+    float: right;
+}
+
+nav {
+    padding: 150px 0 20px 15px;
+    display: inherit;
+}
+
+h1, h2 , h5 {
+    font-family: "Indie FLower" , Arial;
+}
+
+p {
+    font-family: "Quicksand", Arial;
+    display: inline;
+}
+
+a , .breadcrumb-ul a{
+    font-family: "Quicksand", Arial;
+}
+
+h1 , p , h2, h5 , a , .breadcrumb-ul a{
+    color: hsla(210, 14%, 83%, 1);
+}
+
+
+
+
+/* Body */
+
+section {
+    background-color: hsla(210, 11%, 15%, 1);
+}
+
+.main-block {
+    display: grid;
+    grid-template-columns: 7fr 1fr;
+    grid-gap: 10px;
+    padding: 1%;
+}
+
+.breadcrumb {
+    margin-top: 7%;
+    border-radius: 8px;
+    background-color: hsla(210, 11%, 15%, 1);
+}
+
+.breadcrumb-ul {
+    padding: 8px;
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.breadcrumb li {
+    display: contents;
+}
+
+.breadcrumb-ul a {
+    padding: 5px;
+    text-decoration: none;
+}
+
+.ul {
+    display: inline;
+}
+
+.li{
+    display: inline;
+}
+
+.section {
+    margin: 1% 0 2% 0;
+    border-radius: 8px;
+}
+
+
+section h2 {
+    font-size: 40px;
+    padding: 20px 10px 2% 10px;
+}
